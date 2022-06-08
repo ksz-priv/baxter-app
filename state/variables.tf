@@ -1,0 +1,3 @@
+﻿variable "initials" {
+  type = string
+}
