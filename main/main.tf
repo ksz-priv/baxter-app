@@ -180,3 +180,5 @@ resource "azurerm_role_assignment" "baxter_aks_role_acrpull" {
   principal_id                     = azurerm_kubernetes_cluster.ksz_baxter_spot_aks.kubelet_identity.0.object_id
   skip_service_principal_aad_check = true
 }
+
+#test123
